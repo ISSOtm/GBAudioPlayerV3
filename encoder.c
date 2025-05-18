@@ -323,7 +323,7 @@ int main(int argc, const char * argv[])
 
     char output_dir[128];
     printf("No. of channels: %d\n", atoi(argv[3]));
-    strcat(output_dir, "output/build");
+    strcpy(output_dir, "output/build");
 
     printf("%s\n", output_dir);
     int is_ok = chdir(output_dir);
