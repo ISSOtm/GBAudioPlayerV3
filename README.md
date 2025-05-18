@@ -52,7 +52,7 @@ May 2022:
 #### Dependencies
 You still have to have various things installed on your system (though less than GBAudioPlayerV2\.) There's tutorials everywhere, so I'm not going to explain all of it\. These are:
 - GCC
-- [RGBDS](https://rgbds.gbdev.io/)
+- [RGBDS](https://rgbds.gbdev.io/) 0.5.0 or later
 - FFMPEG
 
 And if you're running Windows:
