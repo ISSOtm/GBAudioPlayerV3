@@ -49,7 +49,7 @@ TimerInterrupt:
 	dec h
 	ld [hl], c
 	ld h, $40
-endSample:
+sampleEnd:
 	reti
 waitSample:
 	jr waitSample
